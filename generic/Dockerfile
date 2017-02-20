@@ -1,5 +1,7 @@
 FROM centos:centos6
 
+# one comment
+
 RUN yum clean all && \
     yum -y install epel-release && \
     yum -y install \
@@ -12,6 +14,7 @@ RUN yum clean all && \
     make \
     mercurial \
     mysql \
+    # More comments
     MySQL-python \
     mysql-server \
     openssh-clients \

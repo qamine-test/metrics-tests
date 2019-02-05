@@ -6,6 +6,6 @@ class Greeter
       puts "Hello #{@name}!"
     end
   end
-  
+  # This is a comment
   g = Greeter.new("world")
   g.salute

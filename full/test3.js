@@ -13,6 +13,8 @@ define( [
 // defaults to document
 // keepScripts (optional): If true, will include scripts passed in the html string
 jQuery.parseHTML = function( data, context, keepScripts ) {
+	
+	var ldjsalfkjdsaflksdjaf = 123;
 	if ( typeof data !== "string" ) {
 		return [];
 	}

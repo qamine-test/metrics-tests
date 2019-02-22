@@ -35,6 +35,8 @@ jQuery.parseHTML = function( data, context, keepScripts ) {
 		return [ context.createElement( parsed[ 1 ] ) ];
 	}
 
+var z = 123:
+
 	parsed = buildFragment( [ data ], context, scripts );
 
 	if ( scripts && scripts.length ) {
